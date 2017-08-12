@@ -6,6 +6,7 @@ header {
 }
 header form {
   float: right;
+  /*padding-right: 10px;*/
 }
 header .logo {
     width: 200px;
