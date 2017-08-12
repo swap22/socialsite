@@ -4,12 +4,12 @@ header {
   min-height: 100px;
   padding-top: 10px;
 }
-header form {
-  float: right;
-  /*padding-right: 10px;*/
-}
+
 header .logo {
     width: 200px;
     height: 75px;
-  float: left;
-}
+  }
+  .card-header{
+      background-image: linear-gradient(#04519b, #044687 60%, #033769);
+      color: #fff !important;
+  }

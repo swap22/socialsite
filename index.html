@@ -15,11 +15,14 @@
   </head>
 
   <body>
-    <header>
-      <div class="container">
+    <header >
+      <div class="clearfix" >
+       <div class="float-left"> 
 	    <img src="images/image.png" class="logo"/>
+      </div>
+      <div class="float-right">
        <form class="form-inline">
-            <label class="sr-only" >Email id/User Name</label>
+            <label class="sr-only" >Email </label>
              <input type="email" class="form-control " id="inlineFormInputName2" placeholder="Enter Username or Email">
                 <label class="sr-only" >Password</label>
             <div class="input-group ">
@@ -36,11 +39,12 @@
              </div>
             </div>
         </form>
+      </div>
 	   </div>
     </header>
 
 
-    <nav class="navbar navbar-expand-md ">
+    <nav class="navbar navbar-expand-md navbar-light bg-light ">
       
      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
@@ -67,7 +71,20 @@
       <div class="container">
 	      <div class="row">
 	        <div class="col-md-8">
-          </div>
+            <div class="card">
+                <div class="card-header">
+                  Wall
+                </div>
+                <div class="card-body">
+                  <form>
+                      <div class="form-group">
+                        <textarea type="text" class="form-control"  placeholder="Write on Wall"></textarea>
+                      </div>
+                      <button type="submit" class="btn">Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
            <div class="col-md-4">
           </div>
         </div>
