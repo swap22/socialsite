@@ -17,3 +17,6 @@ header .logo {
       border-radius: 1px;
       border-width: thin;
   }
+  .border img{
+      width: 85px;
+  }
