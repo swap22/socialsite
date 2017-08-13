@@ -20,3 +20,7 @@ header .logo {
   .border img{
       width: 85px;
   }
+  .comment-avatar img {
+  width: 40px;
+  margin-right: 5px;
+}
